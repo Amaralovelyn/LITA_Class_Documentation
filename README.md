@@ -16,4 +16,6 @@ This describes the source of the data used
   2. Analysis and
   3. Visualization
 - SQL - Structured QUery Language for quering of Data
-- GitHub for portfolio building https://
+- GitHub for portfolio building
+
+- ## Data cleaning and Preparations
