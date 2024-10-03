@@ -22,3 +22,5 @@ This describes the source of the data used
 - GitHub for portfolio building
 
 - ## Data cleaning and Preparations
+
+- ### Data Visualization
