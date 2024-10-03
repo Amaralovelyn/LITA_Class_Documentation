@@ -24,3 +24,5 @@ This describes the source of the data used
 - ## Data cleaning and Preparations
 
 - ### Data Visualization
+![VASELINE STICKER](https://github.com/user-attachments/assets/3fb4be28-ea71-4307-9ef7-e44098caeba4)
+
