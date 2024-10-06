@@ -36,8 +36,8 @@ The generated data must be stored somewhere so that the data set is accessible, 
 
  ## DATA ANALYSIS LIFE CYCLE
  This is a cyclical process for gathering, analysing, and interpreting data. The phases are as shown below:
-
-    1 INGESTION
+--- INGESTION
+--- 
     2 TRANSFORMATION
     3 MODELLING
 
