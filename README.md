@@ -36,10 +36,13 @@ The generated data must be stored somewhere so that the data set is accessible, 
 
  ## DATA ANALYSIS LIFE CYCLE
  This is a cyclical process for gathering, analysing, and interpreting data. The phases are as shown below:
---- INGESTION
---- 
-    2 TRANSFORMATION
-    3 MODELLING
+ 
+ - Ingestion: To connect to data source, to socket in
+ - Transformation: once data is brought in, you may want to add or drop columns , change the data type etc. This is typically the ETL.
+ - Modelling: Data modeling refers to the architecture that makes analysis possible. Here an Analyst brings different data close to one another to be able to bring out a single Report.
+ - Visualization: This means simply turning data into visuals, charts, graphs. Visualization is what many people will see
+ - Analysis: Data is evaluated and described by applying statistical and Logical techniques.
+ - Presentation: Data is eady for presentation.
 
  
 
