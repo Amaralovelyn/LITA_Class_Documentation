@@ -51,8 +51,6 @@ The generated data must be stored somewhere so that the data set is accessible, 
   This means removing unwanted observations, outliers, fixing structural errors. It is also known as Data Wrangling.
 
 #### Data Visualization
-![VASELINE STICKER](https://github.com/user-attachments/assets/3fb4be28-ea71-4307-9ef7-e44098caeba4)
-![VASELINE STICKER](https://github.com/user-attachments/assets/39d9395e-fdc8-4999-add1-82c9e4a8bab0)
 
  
 
