@@ -2,14 +2,12 @@
 A documentation of my class on Github creation while learning Data Analysis with the Incubator Hub
 
 ### Project Title: 
-Data Analysis
+Data Analysis- Creating Repository
 ---
-### Sub Tittle: 
-Creating Repository
 
 ### Project Overview:
 ---
-Summarizes or describes the project
+This shows thee meaning and advantages of repository, steps in creating a good repository and components of repository.
 
 ### Data Sources:
 ---
