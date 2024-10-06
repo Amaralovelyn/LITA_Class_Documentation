@@ -23,6 +23,13 @@ The primary source of Data is from LITA, CSV, and this an open source that can b
 # FOUNDATIONS OF DATA
 We need to have some level of Data Litracy, that is how we perceive Data so we can do some certain things or make meaning out of the Data set. These include
 
+#### Data Generation: 
+The way you generate your data would actually impact some of the things you would do with your Data afterward. The better the generated Data, the more value we get from our Data set
+
+#### Data Storage:
+The generated data must be stored some where else we loose the Data. and this can be done in 2 ways - premises or cloud
+
+
   # Data cleaning: This means removing unwanted observations, outliers, fixing structural errors. It is also known as Data Wrangling.
 
 - ### Data Visualization
