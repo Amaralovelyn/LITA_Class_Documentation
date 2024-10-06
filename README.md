@@ -34,6 +34,15 @@ The generated data must be stored somewhere so that the data set is accessible, 
 
  We do what is called ETL- Extract Transform and Load to restructure our data to bring our data to a structure that is reporting or analysis ready. ETL is simply the process of making our data set analysis ready
 
+ ## DATA ANALYSIS LIFE CYCLE
+ This is a cyclical process for gathering, analysing, and interpreting data. The phases are as shown below:
+
+    1 INGESTION
+    2 TRANSFORMATION
+    3 MODELLING
+
+ 
+
 
 #### Data cleaning: 
   This means removing unwanted observations, outliers, fixing structural errors. It is also known as Data Wrangling.
