@@ -8,11 +8,9 @@ Data Analysis- Creating Repository
 ### Project Overview:
 The aim and objective of this projectis to have a good knowledge and understanding of Data Analysis, how to save your works, know the meaning of repository, steps in creating a good repository and components of repository.
 
-### Data Sources:
----
+### Data Sources: 
 The primary source of Data is from LITA, CSV, and this an opensource that can be freely downloaded from an open source online like kaggle.com, data.gov etc.
 ---
-
 ### Tools Used
 - Microsoft Excel [download Here](https://www.microsoft.com)
   1. Data cleaning
