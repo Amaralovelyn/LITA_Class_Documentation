@@ -6,7 +6,7 @@ Data Analysis- Basics of Data Analysis
 ---
 
 ### Project Overview:
-The aim and objective of this project is to have a good knowledge and understanding of Data Analysis, Foundations of Data, Data Generation, Data storage, Data Source, Data Structure
+The aim and objective of this project is to have a good knowledge and understanding of Data Analysis, Foundations of Data - Data Generation, Data storage, Data Source, Data Structure, introduction to MSExcel, Basic Excel Functions, Reports and Dashboards in Excel, Project/Challenge.
 
 ### Data Sources: 
 The primary source of Data is from LITA, CSV, and this an open source that can be freely downloaded from an open source online like kaggle.com, data.gov etc.
@@ -20,7 +20,10 @@ The primary source of Data is from LITA, CSV, and this an open source that can b
 - GitHub for portfolio building
 - Power BI
 
-  # Data cleaning:
+# FOUNDATIONS OF DATA
+We need to have some level of Data Litracy, that is how we perceive Data so we can do some certain things or make meaning out of the Data set. These include
+
+  # Data cleaning: This means removing unwanted observations, outliers, fixing structural errors. It is also known as Data Wrangling.
 
 - ### Data Visualization
 ![VASELINE STICKER](https://github.com/user-attachments/assets/3fb4be28-ea71-4307-9ef7-e44098caeba4)
