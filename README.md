@@ -1,9 +1,11 @@
 # LITA_Class_Documentation
-This is where I documented my first class on Github creation while learning Data Analysis with the Incubator Hub
+A documentation of my class on Github creation while learning Data Analysis with the Incubator Hub
 
-### Project title:
+### Project Title: 
+Data Analysis
 ---
-E commerce sales Analysis 
+### Sub Tittle: 
+Creating Repository
 
 ### Project Overview:
 ---
