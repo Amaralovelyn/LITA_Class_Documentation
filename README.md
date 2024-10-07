@@ -13,9 +13,10 @@ The primary source of Data is from LITA, CSV, and this an open source that can b
 
 ### Tools Used
 - Microsoft Excel [download Here](https://www.microsoft.com)
-  1. Data cleaning
-  2. Data Analysis and
-  3. Data Visualization
+  1. Data Generation and cleaning
+  2. Explore and Visualize Data  
+  3. Analyze Data
+  4. Tell stories with Data
 - SQL - Structured QUery Language for quering of Data
 - GitHub for portfolio building
 - Power BI
