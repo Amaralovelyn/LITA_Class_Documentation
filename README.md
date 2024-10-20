@@ -65,6 +65,7 @@ TEXT - CLEANING 2. Here I started by:
 7. Duplicated the Name column and SPLITED the Name copy column created by SPACE delimeter, at LEFT-MOST DELIMITER to get the First Name and Surname column having copied and removing the Original First Name and Surname Column
 8. I then MERGE the First Name with the Email to form the Email address Column having duplicated the Email column.
 9. Then finally renamed the Email Address column.
+    
 
 
 
@@ -79,6 +80,7 @@ TEXT - CLEANING 3. Here:
 7. Then duplicated the First Name and the Surname and creating additional column copy respectively
 8. I then copied and Removed the Full Name column
 9. and finally MERGED the two column copies by SPACE seperator to get the Full Name.
+
 
 
 
