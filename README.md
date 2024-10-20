@@ -52,7 +52,7 @@ The generated data must be stored somewhere so that the data set is accessible, 
 # Data cleaning Using Power BI 
  Recall that Data Cleaning means removing unwanted observations, outliers, fixing structural errors. It is also the process of detecting and correcting corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data.
 
- Shown below are some TEXT Cleaning Using Power BI
+ Shown below are some TEXT Cleaning done Using Power BI
   
   ![TEXT Cleaning 2](https://github.com/user-attachments/assets/2d2def68-a39e-4140-b3cb-d76ad77290d0)
 Here I started by:
@@ -62,7 +62,9 @@ Here I started by:
 5. Removed the bottom 5 rows
 6. Duplicated the Name column and SPLITED the Name copy column created by SPACE delimeter, at LEFT-MOST DELIMITER to get the First Name and Surname column having copied and removing the Original First Name and Surname Column
 7. I then MERGE the First Name with the Email to form the Email address Column having duplicated the Email column.
-8. Then finally renamed the Email Address column.
+9. Then finally renamed the Email Address column.
+
+
 
 ![TEXT Cleaning 3](https://github.com/user-attachments/assets/141be463-69df-4e90-ae5a-712d8be84e84) 
 Here: 
@@ -72,7 +74,9 @@ Here:
 4. Promoted the header using first row as header
 5. Then duplicated the First Name and the Surname and creating additional column copy respectively
 6. I then copied and Removed the Full Name column
-7. and finally MERGED the two column copies by SPACE seperator to get the Full Name. 
+7. and finally MERGED the two column copies by SPACE seperator to get the Full Name.
+
+
 
 ![TEXT Cleaning 4](https://github.com/user-attachments/assets/47b88bd6-89be-453f-85fc-9e9921743213) 
 Here: 
