@@ -1,5 +1,5 @@
 # LITA_Class_Documentation
-A documentation of my first class on Data Analysis with the Incubator Hub
+A documentation of my class on Data Analysis with the Incubator Hub
 
 ## Project Title: 
 Data Analysis- Basics of Data Analysis
@@ -49,10 +49,10 @@ The generated data must be stored somewhere so that the data set is accessible, 
  - Presentation: Data is ready for presentation.
 
  
+# Data cleaning Using Power BI 
+ Recall that Data Cleaning means removing unwanted observations, outliers, fixing structural errors. It is also the process of detecting and correcting corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data.
 
-
-#### Data cleaning: 
-  This means removing unwanted observations, outliers, fixing structural errors. 
+ Shown below are some TEXT Cleaning Using Power BI
   
   ![TEXT Cleaning 2](https://github.com/user-attachments/assets/2d2def68-a39e-4140-b3cb-d76ad77290d0)
 Here I started by:
