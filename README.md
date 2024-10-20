@@ -56,38 +56,42 @@ The generated data must be stored somewhere so that the data set is accessible, 
   
   ![TEXT Cleaning 2](https://github.com/user-attachments/assets/2d2def68-a39e-4140-b3cb-d76ad77290d0)
 TEXT - CLEANING 2. Here I started by:
-1. Removing empty 2 top rows, 
-2. Replacing all the null values with @lita.org by clicking on REPLACE VALUES, 3. 3. Then removed the bottom 5 rows
-4. Promoted the Header using USE FIRST ROW AS HEADERS
-5. Removed the bottom 5 rows
-6. Duplicated the Name column and SPLITED the Name copy column created by SPACE delimeter, at LEFT-MOST DELIMITER to get the First Name and Surname column having copied and removing the Original First Name and Surname Column
-7. I then MERGE the First Name with the Email to form the Email address Column having duplicated the Email column.
+1. got my Data
+2. Took it for Transformation
+3. Removing empty 2 top rows, 
+4. Replacing all the null values with @lita.org by clicking on REPLACE VALUES, 3. 3. Then removed the bottom 5 rows
+5. Promoted the Header using USE FIRST ROW AS HEADERS
+6. Removed the bottom 5 rows
+7. Duplicated the Name column and SPLITED the Name copy column created by SPACE delimeter, at LEFT-MOST DELIMITER to get the First Name and Surname column having copied and removing the Original First Name and Surname Column
+8. I then MERGE the First Name with the Email to form the Email address Column having duplicated the Email column.
 9. Then finally renamed the Email Address column.
 
 
 
 ![TEXT Cleaning 3](https://github.com/user-attachments/assets/141be463-69df-4e90-ae5a-712d8be84e84) 
 TEXT - CLEANING 3. Here: 
-1. I first removed Top 2 rows
-2. Removed an empty column
-3. Removed bottom 5 rows
-4. Promoted the header using first row as header
-5. Then duplicated the First Name and the Surname and creating additional column copy respectively
-6. I then copied and Removed the Full Name column
-7. and finally MERGED the two column copies by SPACE seperator to get the Full Name.
+1. I got my Data
+2. Took it for Transformation
+3. I first removed Top 2 rows
+4.  Removed an empty column
+5. Removed bottom 5 rows
+6. Promoted the header using first row as header
+7. Then duplicated the First Name and the Surname and creating additional column copy respectively
+8. I then copied and Removed the Full Name column
+9. and finally MERGED the two column copies by SPACE seperator to get the Full Name.
 
 
 
 ![TEXT Cleaning 4](https://github.com/user-attachments/assets/47b88bd6-89be-453f-85fc-9e9921743213) 
-TEXT - CLEANING 4. Here: 
+TEXT - CLEANING 4. Here, after generating my Data and taking it for transformation: 
 1. I first removed Top 2 rows
 2. Removed an empty column
 3. Promoted the header using first row as header
 4. Removed bottom 5 rows
 5. Duplicated the Email Address column
-6. Then SPLITTED the created column copy by @ delimiter at aecch occurence of the delimiter
+6. Then SPLITTED the created column copy by @ delimiter at each occurrence of the delimiter
 7. Then removed the unwanted columns (@lita.org) out of the 2 additional created columns
-8. Again splitted the remaining column of the previous ctreated column (the first name.surname) by dot (.) seperator at Left-most delimiter
+8. Again splitted the remaining column of the previous created column (the first name.surname) by dot (.) seperator at Left-most delimiter
 9. And finally, I copied and removed the First Name and Surname column respectively and renamed them respectively.
 
 
