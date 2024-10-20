@@ -55,7 +55,7 @@ The generated data must be stored somewhere so that the data set is accessible, 
  Shown below are some TEXT Cleaning done Using Power BI
   
   ![TEXT Cleaning 2](https://github.com/user-attachments/assets/2d2def68-a39e-4140-b3cb-d76ad77290d0)
-Here I started by:
+TEXT - CLEANING 2. Here I started by:
 1. Removing empty 2 top rows, 
 2. Replacing all the null values with @lita.org by clicking on REPLACE VALUES, 3. 3. Then removed the bottom 5 rows
 4. Promoted the Header using USE FIRST ROW AS HEADERS
@@ -67,7 +67,7 @@ Here I started by:
 
 
 ![TEXT Cleaning 3](https://github.com/user-attachments/assets/141be463-69df-4e90-ae5a-712d8be84e84) 
-Here: 
+TEXT - CLEANING 3. Here: 
 1. I first removed Top 2 rows
 2. Removed an empty column
 3. Removed bottom 5 rows
@@ -79,7 +79,7 @@ Here:
 
 
 ![TEXT Cleaning 4](https://github.com/user-attachments/assets/47b88bd6-89be-453f-85fc-9e9921743213) 
-Here: 
+TEXT - CLEANING 4. Here: 
 1. I first removed Top 2 rows
 2. Removed an empty column
 3. Promoted the header using first row as header
