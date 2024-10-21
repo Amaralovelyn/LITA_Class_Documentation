@@ -91,7 +91,7 @@ TEXT - CLEANING 4. Here, after generating my Data and taking it for transformati
 3. Promoted the header using first row as header
 4. Removed bottom 5 rows
 5. Duplicated the Email Address column
-6. Then SPLITTED the created column copy by @ delimiter at each occurrence of the delimiter
+6. Then SPLITED the created column copy by @ delimiter at each occurrence of the delimiter
 7. Then removed the unwanted columns (@lita.org) out of the 2 additional created columns
 8. Again splitted the remaining column of the previous created column (the first name.surname) by dot (.) seperator at Left-most delimiter
 9. And finally, I copied and removed the First Name and Surname column respectively and renamed them respectively.
