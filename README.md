@@ -188,10 +188,9 @@ North	1,950,000   ```=SUMIF(D2:D50001,D49982,H2:H50001)```
 
 TOTAL 10,587,500  ```=SUM(M12:M15)```
  
+iii. Creating other interesting report:
 
 
-
-o Create any other interesting report
 
 ### Data Sources
 ### Tools used
