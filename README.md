@@ -119,7 +119,7 @@ dashboard that highlights these findings
 i. I Performed an initial exploration of the sales data. Use pivot tables to summarize 
 total sales by product, region, and month and the results are as shown below:
 
-![Total sales by product, region, and month](https://github.com/user-attachments/assets/e3a621af-1fa5-43a0-ab18-2c7793122497)
+![Total sales by product, region, and month](https://github.com/user-attachments/assets/e9da38aa-538a-43b9-8e9b-eda30f5905c4)
 
 o Use Excel formulas to calculate metrics such as average sales per product and 
 total revenue by region.
