@@ -215,6 +215,12 @@ ADD TotalSales int```
 
 ```UPDATE SalesData SET TotalSales = Quantity*UnitPrice```
 
+The Image below are the SQL Queries as entered in SQL Server
+
+
+![SQL QUERIES](https://github.com/user-attachments/assets/a2991865-41c9-4689-9dd8-bf75c2ceb04f)
+
+
 - Then, I was able to Write queries to extract key insights based on the following questions: 
 
 i. Retrieve the total sales for each product category.
