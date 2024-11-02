@@ -1,4 +1,4 @@
-# LITA_Class_Documentation
+![image](https://github.com/user-attachments/assets/c01d978d-faa8-4034-958c-239850cb0c01)![image](https://github.com/user-attachments/assets/9e05052c-95db-47de-9522-5edea00dbcab)# LITA_Class_Documentation
 A documentation of my class on Data Analysis with the Incubator Hub and Project work.
 
 ## Project Title: 
@@ -115,11 +115,48 @@ performance, and monthly sales trends. The goal is to produce an interactive Pow
 dashboard that highlights these findings
 
 ### Procedure
-1. Excel:
+1. Using Excel:
+   
 i. I Performed an initial exploration of the sales data. Use pivot tables to summarize 
 total sales by product, region, and month and the results are as shown below:
 
 ![Total sales by product, region, and month](https://github.com/user-attachments/assets/e9da38aa-538a-43b9-8e9b-eda30f5905c4)
+
+#### From the Total Sales by Product Pivot Table:
+- Shoes made the highest sale of  3,087,500
+- Followed by shirt at 2,450,000
+- Socks made the leastt sales of 912,500
+
+#### From the Total Sales by Region Pivot Table:
+
+- South made the highest sales of  4,675,000
+- Followed by East at 2,450,000
+- while the lowest sale came from West at 1,512,500
+
+#### From the Total Sales by Month Pivot Table:
+
+The sales are as shown below in Descending order
+Feb	 2,750,000 
+Jul	 1,387,500 
+Jan	 1,250,000 
+Jun	 1,250,000 
+Aug	 1,025,000 
+Oct	 675,000 
+Mar	 537,500 
+Nov	 525,000 
+May	 525,000 
+Dec	 250,000 
+Apr	 237,500 
+Sep	 175,000 
+
+September having the lowest sale should be as a result of school Resumption where parents and Guardian has to pay more attention to paying of school fees, and other school things.
+
+#### From the Pivot Tables above the Grand Total is 10,587,500 
+
+ 
+
+
+
 
 o Use Excel formulas to calculate metrics such as average sales per product and 
 total revenue by region.
