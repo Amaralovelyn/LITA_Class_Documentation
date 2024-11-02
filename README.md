@@ -208,8 +208,9 @@ validate my queries. The following queries were done:
 
 - Then I alter the SalesData Table to create additional column called TotalSales by writing the query below:
 
-   ```ALTER TABLE salesdata 
-        ADD TotalSales int```
+   ```ALTER TABLE salesdata
+  
+    ADD TotalSales int```
 
 - Then UPDATE the SalesData Table with the query below:
 
