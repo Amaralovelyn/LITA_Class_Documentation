@@ -125,5 +125,8 @@ total revenue by region.
 o Create any other interesting report
 
 ### Data Sources
- 
+### Tools used
+### Data cleaning and Preparation
+### Exploratory Data Analysis
+### Data Analysis... codes used
 
