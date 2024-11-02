@@ -1,4 +1,4 @@
-# LITA_Class_Documentation
+![image](https://github.com/user-attachments/assets/a2deecca-b4c1-48bc-8c31-cc5648e07861)# LITA_Class_Documentation
 A documentation of my class on Data Analysis with the Incubator Hub and Project work.
 
 ## Project Title: 
@@ -157,16 +157,28 @@ September having the lowest sale should be as a result of school Resumption wher
 
  ii. I Used Excel formulas to calculate metrics such as:
  
- - average sales per product
+ - AVERAGE SALE PER PRODUCT
 
-```=AVERAGEIF(C2:C50001,C2,H2:H50001)``` This gives Sale of SHIRT to be 326.6667
+```=AVERAGEIF(C2:C50001,C2,H2:H50001)```       Shirt	      326.6666667 = 327
 
-```308.75
-![image](https://github.com/user-attachments/assets/bcd67ef5-bb50-45da-9b51-b80d4fc75d6c)
-                           This gives Sale of SHOE to be 308.75 
+```=AVERAGEIF(C2:C50001,C49983,H2:H50001)```   Shoes	      308.75 = 309
 
+```=AVERAGEIF(C2:C50001,C49984,H2:H50001)```   Hat	        158.75 = 159
 
-total revenue by region, 
+```=AVERAGEIF(C2:C50001,C49985,H2:H50001)```   Socks	      121.6666667 = 122
+
+```=AVERAGEIF(C2:C50001,C49986,H2:H50001)```   Jacket	    140
+
+```=AVERAGEIF(C2:C50001,C49987,H2:H50001)```   Gloves	    200
+
+- TOTAL REVENUE BY REGION
+
+South	4675000   ```=SUMIF(D2:D50001,D49983,H2:H50001)```
+East	2450000   ```=SUMIF(D2:D50001,D49984,H2:H50001)```
+West	1512500   ```=SUMIF(D2:D50001,D49989,H2:H50001)```
+North	1950000   ```=SUMIF(D2:D50001,D49982,H2:H50001)```
+
+ 
 
 
 
