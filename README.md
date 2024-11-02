@@ -1,9 +1,8 @@
-![image](https://github.com/user-attachments/assets/c01d978d-faa8-4034-958c-239850cb0c01)![image](https://github.com/user-attachments/assets/9e05052c-95db-47de-9522-5edea00dbcab)# LITA_Class_Documentation
+# LITA_Class_Documentation
 A documentation of my class on Data Analysis with the Incubator Hub and Project work.
 
 ## Project Title: 
 Data Analysis- Basics of Data Analysis
----
 
 ### Project Overview:
 The aim and objective of this project is to have a good knowledge and understanding of Data Analysis, Foundations of Data - Data Generation, Data storage, Data Source, Data Structure, introduction to MSExcel, Basic Excel Functions, Reports and Dashboards in Excel, Project/Challenge.
@@ -21,10 +20,11 @@ The primary source of Data is from LITA, CSV, and this an open source that can b
 - GitHub for portfolio building
 - Power BI
 
-## FOUNDATIONS OF DATA
+### FOUNDATIONS OF DATA
 We need to have some level of Data Litracy, that is how we perceive Data so we can do some certain things or make meaning out of the Data set. These include
 
-- Data Generation: 
+- Data Generation:
+  
 The way you generate your data would actually impact some of the things you would do with your Data afterward. The better the generated Data, the more value we get from our Data set.
 
 - Data Cleaning:
@@ -38,7 +38,8 @@ The generated data must be stored somewhere so that the data set is accessible, 
 
  We do what is called ETL- Extract Transform and Load to restructure our data to bring our data to a structure that is reporting or analysis ready. ETL is simply the process of making our data set analysis ready
 
- ## DATA ANALYSIS LIFE CYCLE
+ ### DATA ANALYSIS LIFE CYCLE
+ 
  This is a cyclical process for gathering, analysing, and interpreting data. The phases are as shown below:
  
  - Ingestion: To connect to data source, to socket in
@@ -49,10 +50,10 @@ The generated data must be stored somewhere so that the data set is accessible, 
  - Presentation: Data is ready for presentation.
 
  
-# Data cleaning Using Power BI 
+### Data cleaning Using Power BI 
  Recall that Data Cleaning means removing unwanted observations, outliers, fixing structural errors. It is also the process of detecting and correcting corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data.
 
- Shown below are some TEXT Cleaning done Using Power BI
+ ### Shown below are some TEXT Cleaning done Using Power BI
   
   ![TEXT Cleaning 2](https://github.com/user-attachments/assets/2d2def68-a39e-4140-b3cb-d76ad77290d0)
 TEXT - CLEANING 2. Here I started by:
@@ -66,9 +67,6 @@ TEXT - CLEANING 2. Here I started by:
 8. I then MERGE the First Name with the Email to form the Email address Column having duplicated the Email column.
 9. Then finally renamed the Email Address column.
     
-
-
-
 ![TEXT Cleaning 3](https://github.com/user-attachments/assets/141be463-69df-4e90-ae5a-712d8be84e84) 
 TEXT - CLEANING 3. Here: 
 1. I got my Data
@@ -80,9 +78,6 @@ TEXT - CLEANING 3. Here:
 7. Then duplicated the First Name and the Surname and creating additional column copy respectively
 8. I then copied and Removed the Full Name column
 9. and finally MERGED the two column copies by SPACE seperator to get the Full Name.
-
-
-
 
 ![TEXT Cleaning 4](https://github.com/user-attachments/assets/47b88bd6-89be-453f-85fc-9e9921743213) 
 TEXT - CLEANING 4. Here, after generating my Data and taking it for transformation: 
@@ -98,23 +93,19 @@ TEXT - CLEANING 4. Here, after generating my Data and taking it for transformati
 
 
 
-
-
-
-
-
-
 # MY PROJECT WORK IN DATA ANALYSIS WITH THE INCUBATOR HUB
+
 ## PROJECT TITLE: SALES AND CUSTOMERS DATA ANALYSIS
 
-## Project 1: Sales Performance Analysis for a Retail Store
+## PROJECT 1: Sales Performance Analysis for a Retail Store
 
 ### Project Overview/Summary: In this project, I will be analyzing the sales performance of a retail store. 
 I explored the sales data to uncover key insights such as top-selling products, regional 
 performance, and monthly sales trends. The goal is to produce an interactive Power BI 
 dashboard that highlights these findings
 
-### Procedure
+### Procedure:
+
 1. Using Excel:
    
 i. I Performed an initial exploration of the sales data. Use pivot tables to summarize 
@@ -137,29 +128,48 @@ total sales by product, region, and month and the results are as shown below:
 
 The sales are as shown below in Descending order
 Feb	 2,750,000 
+
 Jul	 1,387,500 
+
 Jan	 1,250,000 
+
 Jun	 1,250,000 
+
 Aug	 1,025,000 
+
 Oct	 675,000 
+
 Mar	 537,500 
+
 Nov	 525,000 
+
 May	 525,000 
+
 Dec	 250,000 
+
 Apr	 237,500 
+
 Sep	 175,000 
 
 September having the lowest sale should be as a result of school Resumption where parents and Guardian has to pay more attention to paying of school fees, and other school things.
 
 #### From the Pivot Tables above the Grand Total is 10,587,500 
 
+ ii. I Used Excel formulas to calculate metrics such as:
  
+ - average sales per product
+
+```=AVERAGEIF(C2:C50001,C2,H2:H50001)``` This gives Sale of SHIRT to be 326.6667
+
+```308.75
+![image](https://github.com/user-attachments/assets/bcd67ef5-bb50-45da-9b51-b80d4fc75d6c)
+                           This gives Sale of SHOE to be 308.75 
+
+
+total revenue by region, 
 
 
 
-
-o Use Excel formulas to calculate metrics such as average sales per product and 
-total revenue by region.
 o Create any other interesting report
 
 ### Data Sources
