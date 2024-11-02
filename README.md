@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a2deecca-b4c1-48bc-8c31-cc5648e07861)# LITA_Class_Documentation
+LITA_Class_Documentation
 A documentation of my class on Data Analysis with the Incubator Hub and Project work.
 
 ## Project Title: 
@@ -159,6 +159,9 @@ September having the lowest sale should be as a result of school Resumption wher
  
  - AVERAGE SALE PER PRODUCT
 
+![image](https://github.com/user-attachments/assets/538ff9ab-7424-4913-b1e0-91285932204a)
+
+
 ```=AVERAGEIF(C2:C50001,C2,H2:H50001)```       Shirt	      326.6666667 = 327
 
 ```=AVERAGEIF(C2:C50001,C49983,H2:H50001)```   Shoes	      308.75 = 309
@@ -172,12 +175,18 @@ September having the lowest sale should be as a result of school Resumption wher
 ```=AVERAGEIF(C2:C50001,C49987,H2:H50001)```   Gloves	    200
 
 - TOTAL REVENUE BY REGION
+ 
+![image](https://github.com/user-attachments/assets/7cd76cbe-5dae-437f-a52a-21b1b9d885c8)
 
-South	4675000   ```=SUMIF(D2:D50001,D49983,H2:H50001)```
-East	2450000   ```=SUMIF(D2:D50001,D49984,H2:H50001)```
-West	1512500   ```=SUMIF(D2:D50001,D49989,H2:H50001)```
-North	1950000   ```=SUMIF(D2:D50001,D49982,H2:H50001)```
+South	4,675,000   ```=SUMIF(D2:D50001,D49983,H2:H50001)```
 
+East	2,450,000   ```=SUMIF(D2:D50001,D49984,H2:H50001)```
+
+West	1,512,500   ```=SUMIF(D2:D50001,D49989,H2:H50001)```
+
+North	1,950,000   ```=SUMIF(D2:D50001,D49982,H2:H50001)```
+
+TOTAL 10,587,500  ```=SUM(M12:M15)```
  
 
 
