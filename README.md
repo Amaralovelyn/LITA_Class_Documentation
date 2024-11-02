@@ -1,5 +1,5 @@
 # LITA_Class_Documentation
-A documentation of my class on Data Analysis with the Incubator Hub
+A documentation of my class on Data Analysis with the Incubator Hub and Project work.
 
 ## Project Title: 
 Data Analysis- Basics of Data Analysis
@@ -104,7 +104,23 @@ TEXT - CLEANING 4. Here, after generating my Data and taking it for transformati
 
 
 
-#### Data Visualization
+# MY PROJECT WORK IN DATA ANALYSIS WITH THE INCUBATOR HUB
+
+## Project 1: Sales Performance Analysis for a Retail Store
+### Summary: In this project, I will be analyzing the sales performance of a retail store. 
+I explored the sales data to uncover key insights such as top-selling products, regional 
+performance, and monthly sales trends. The goal is to produce an interactive Power BI 
+dashboard that highlights these findings
+
+#### Procedure
+1. Excel:
+i. I Performed an initial exploration of the sales data. Use pivot tables to summarize 
+total sales by product, region, and month and the results are as shown below:
+
+
+o Use Excel formulas to calculate metrics such as average sales per product and 
+total revenue by region.
+o Create any other interesting report
 
  
 
