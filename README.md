@@ -106,7 +106,7 @@ dashboard that highlights these findings
 
 ### Procedure:
 
-1. Using Excel:
+### 1. Using Excel:
    
 i. I Performed an initial exploration of the sales data. Use pivot tables to summarize 
 total sales by product, region, and month and the results are as shown below:
@@ -189,6 +189,44 @@ North	1,950,000   ```=SUMIF(D2:D50001,D49982,H2:H50001)```
 TOTAL 10,587,500  ```=SUM(M12:M15)```
  
 iii. Creating other interesting report:
+
+The charts below summarizes the Sales Report at a glance
+
+![SALES REPORT](https://github.com/user-attachments/assets/52a08fb3-28e3-4f9b-a949-587c7ca092f2)
+
+![SALES REPORT 1](https://github.com/user-attachments/assets/0b882ab7-0ff7-4a36-bf97-aa87f791bfa1)
+
+
+### 2. Using SQL:
+
+#### I loaded the Salesdataset into my SQL Server environment so I can write and 
+validate my queries. The following queries were done:
+
+- To see my SalesData Table, I wrote the query below:
+
+```select*from salesdata``` 
+
+- Then I alter the SalesData Table to create additional column called TotalSales by writing the query below:
+
+```ALTER TABLE salesdata
+ADD TotalSales int```
+
+- Then UPDATE the SalesData Table with the query below:
+
+```UPDATE SalesData SET TotalSales = Quantity*UnitPrice```
+
+- Then, I was able to Write queries to extract key insights based on the following questions: 
+
+i. Retrieve the total sales for each product category.
+
+ii. Find the number of sales transactions in each region.
+iii. Find the highest-selling product by total sales value.
+iv. Calculate total revenue per product.
+v. Calculate monthly sales totals for the current year.
+vi. Find the top 5 customers by total purchase amount.
+vii. Calculate the percentage of total sales contributed by each region.
+viii. Identify products with no sales in the last quarter.
+
 
 
 
