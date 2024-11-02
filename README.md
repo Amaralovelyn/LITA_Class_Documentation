@@ -204,34 +204,84 @@ validate my queries. The following queries were done:
 
 - To see my SalesData Table, I wrote the query below:
 
-```select*from salesdata``` 
+      ```select*from salesdata``` 
 
 - Then I alter the SalesData Table to create additional column called TotalSales by writing the query below:
 
-```ALTER TABLE salesdata
-ADD TotalSales int```
+   ```ALTER TABLE salesdata 
+        ADD TotalSales int```
 
 - Then UPDATE the SalesData Table with the query below:
 
-```UPDATE SalesData SET TotalSales = Quantity*UnitPrice```
+   ```UPDATE SalesData SET TotalSales = Quantity*UnitPrice```
 
 The Image below are the SQL Queries as entered in SQL Server
-
 
 ![SQL QUERIES](https://github.com/user-attachments/assets/a2991865-41c9-4689-9dd8-bf75c2ceb04f)
 
 
 - Then, I was able to Write queries to extract key insights based on the following questions: 
 
-i. Retrieve the total sales for each product category.
+i. Retrieve the total sales for each product category
 
-ii. Find the number of sales transactions in each region.
-iii. Find the highest-selling product by total sales value.
-iv. Calculate total revenue per product.
-v. Calculate monthly sales totals for the current year.
-vi. Find the top 5 customers by total purchase amount.
+   ```SELECT Product, SUM(TotalSales) AS TOTAL_SALES
+        FROM SalesData
+           GROUP BY Product```
+
+ii. Find the number of sales transactions in each region
+
+    ```SELECT Region, COUNT(Customer_Id) AS Number_of_sales_transaction
+         FROM SalesData
+           GROUP BY Region```
+
+iii. Find the highest-selling product by total sales value
+
+    ````SELECT Product, SUM(TotalSales) AS Highest_sale_value
+          FROM SalesData
+            GROUP BY Product
+              ORDER BY Highest_sale_value desc```
+
+iv. Calculate total revenue per product
+
+   ```SELECT Product, SUM(TotalSales) AS Total_revenue
+        FROM SalesData
+          GROUP BY Product
+            ORDER BY Total_revenue DESC```
+
+v. Calculate monthly sales totals for the current year
+
+    ```SELECT MONTH(orderdate) AS Sales_month,
+         SUM(TotalSales) AS TOTAL_SALES
+          FROM SalesData
+           WHERE YEAR(OrderDate) = YEAR(GETDATE())
+            GROUP BY MONTH(OrderDate)
+             ORDER BY Sales_month```
+
+vi. Find the top 5 customers by total purchase amount
+
+   ```SELECT TOP 5 Customer_Id, SUM(TotalSales) AS TOTAL_SALES
+       FROM SalesData
+        GROUP BY Customer_Id
+         ORDER BY TOTAL_SALES```
+
 vii. Calculate the percentage of total sales contributed by each region.
-viii. Identify products with no sales in the last quarter.
+
+   ```SELECT REGION, SUM(TotalSales) AS TOTAL_SALES,
+       (SUM(TotalSales) / (SELECT SUM(TotalSales)
+        FROM SalesData)) * 100 AS PERCENTAGETOTAL_SALES
+         FROM SalesData
+          GROUP BY REGION
+           ORDER BY TOTAL_SALES```
+
+viii. Identify products with no sales in the last quarter
+
+   ```SELECT Product, Region
+       FROM SalesData
+        WHERE Product NOT IN (
+         SELECT Product
+          FROM SalesData
+           WHERE OrderDate >=
+            DATEADD (QUARTER, -1, GETDATE()))```
 
 
 
