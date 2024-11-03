@@ -297,7 +297,9 @@ viii. Identify products with no sales in the last quarter
 
 i. Analyze customer data using pivot tables to find subscription patterns.
 
+![CUS SUB PIVOT TABLE](https://github.com/user-attachments/assets/962875df-6518-4af1-b463-b403438bf1ce)
 
+![CUS SUB PIVOT TABLE 1](https://github.com/user-attachments/assets/39351dde-8530-4f50-bd09-3a42d09c908c)
 
 REGION BY ACTIVE SUBSCRIPTION  	
 Region	Sum of Active Subscription
@@ -322,6 +324,10 @@ Grand Total	 33,750
 Here, East Region has zero attrition, which means they have high retention rate, which signals high customers satisfaction.
 
 With other 3 remaining regions having same number of attrition signaling that customers satisfaction should be enhanced and product quality and affordability should be looked into.
+
+![CUS SUB REPORT 1](https://github.com/user-attachments/assets/c401a79a-0e7f-4b99-b0e6-57e90576a6f9)
+
+![CUS  SUB REPORT 2](https://github.com/user-attachments/assets/b065f8fd-efa0-4192-9a35-a72102691523)
 
 CUSTOMER BY SUBSCRIPTION DURATION
 
@@ -369,13 +375,7 @@ Zoe	                   1,372,500
 
 Grand Total	           27,401,250
 
-![CUSTOMER SUB REPORT 1](https://github.com/user-attachments/assets/c770e688-1fb3-41db-84a7-63aa2a4e7f61)
-
-![CUSTOMER SUB REPORT 2](https://github.com/user-attachments/assets/9832fb94-3329-48cb-8bf8-fed13a3efd28)
-
-
-
-
+ 
 
 
 o Calculate the average subscription duration and identify the most popular 
