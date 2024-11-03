@@ -321,33 +321,59 @@ Here, East Region has zero attrition, which means they have high retention rate,
 
 With other 3 remaining regions having same number of attrition signaling that customers satisfaction should be enhanced and product quality and affordability should be looked into.
 
-CUSTOMER BY SUBSCRIPTION DURATION	
-Customer Name	Sum of SubscriptionDuration in Days
-Alex	 1,368,750 
-Anna	 1,368,750 
-Chris	 1,368,750 
-Dan	 1,372,500 
-Ella	 1,368,750 
-Eva	 1,368,750 
-Grace	 1,372,500 
-James	 1,368,750 
-Jane	 1,368,750 
-John	 1,368,750 
-Liam	 1,368,750 
-Maria	 1,368,750 
-Mike	 1,368,750 
-Nina	 1,372,500 
-Paul	 1,372,500 
-Rob	 1,372,500 
-Sara	 1,368,750 
-Sophia	 1,372,500 
-Tom	 1,368,750 
-Zoe	 1,372,500 
-Grand Total	 27,401,250
+CUSTOMER BY SUBSCRIPTION DURATION
 
+Customer Name	 Sum of SubscriptionDuration in Days
 
+Alex	                 1,368,750
+ 
+Anna	                 1,368,750
 
+Chris	                 1,368,750
 
+Dan                    1,372,500
+
+Ella	                 1,368,750
+
+Eva	                   1,368,750
+
+Grace	                 1,372,500
+
+James	                 1,368,750
+
+Jane	                 1,368,750
+
+John	                 1,368,750
+
+Liam	                 1,368,750
+
+Maria	                 1,368,750
+
+Mike	                 1,368,750
+
+Nina	                 1,372,500
+
+Paul	                 1,372,500
+
+Rob	                   1,372,500
+
+Sara	                 1,368,750
+
+Sophia	               1,372,500
+
+Tom	                   1,368,750
+
+Zoe	                   1,372,500
+
+Grand Total	           27,401,250
+
+![CUSTOMER SUB REPORT 1](https://github.com/user-attachments/assets/c770e688-1fb3-41db-84a7-63aa2a4e7f61)
+
+![CUSTOMER SUB REPORT 2](https://github.com/user-attachments/assets/9832fb94-3329-48cb-8bf8-fed13a3efd28)
+
+![CUSTOMERS SUB PIVOT TABLE](https://github.com/user-attachments/assets/4c75f02b-ad1c-4e26-9e3a-d9b5bc3e66c9)
+
+![CUSTOMERS SUB PIVOT TABLE 1](https://github.com/user-attachments/assets/af60cc7d-0fdc-4667-9ae9-adc6f6efb32f)
 
 
 
