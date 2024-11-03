@@ -305,11 +305,6 @@ South	 7,500
 West	 7,500 
 Grand Total	 41,250
 
-![image](https://github.com/user-attachments/assets/6a9431d2-c970-49a9-a352-b06982ae7539)
-
-![image](https://github.com/user-attachments/assets/472d31a4-13b6-40dd-9515-49315836e0d8)
-
-
 Here the EAST REGION has the higest number of ACTIVE Subscribers signaling high retention rate and Customers satisfaction.
 
 While the remaining three Regions has the same number of active Subscribers but very far below the Eastern Region, quality and cost of the product should be looked into.
@@ -321,11 +316,6 @@ North	 11,250
 South	 11,250 
 West	 11,250 
 Grand Total	 33,750
-
-![image](https://github.com/user-attachments/assets/37645238-6fd1-4f60-bf93-1d16e7655fbe)
-
-![image](https://github.com/user-attachments/assets/feab134c-113f-4c1c-a4b9-19bc5c62dcad)
-
 
 Here, East Region has zero attrition, which means they have high retention rate, which signals high customers satisfaction.
 
@@ -355,7 +345,7 @@ Tom	 1,368,750
 Zoe	 1,372,500 
 Grand Total	 27,401,250
 
-![image](https://github.com/user-attachments/assets/b94cefe0-eb72-49a7-8098-677ebf32db30)
+
 
 
 
