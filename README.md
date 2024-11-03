@@ -1,4 +1,4 @@
-LITA_Class_Documentation
+# LITA_Class_Documentation
 A documentation of my class on Data Analysis with the Incubator Hub and Project work.
 
 ## Project Title: 
@@ -92,19 +92,25 @@ TEXT - CLEANING 4. Here, after generating my Data and taking it for transformati
 9. And finally, I copied and removed the First Name and Surname column respectively and renamed them respectively.
 
 
-
 # MY PROJECT WORK IN DATA ANALYSIS WITH THE INCUBATOR HUB
 
 ## PROJECT TITLE: SALES AND CUSTOMERS DATA ANALYSIS
 
 ## PROJECT 1: Sales Performance Analysis for a Retail Store
 
-### Project Overview/Summary: In this project, I will be analyzing the sales performance of a retail store. 
+### Project Overview/Summary: This Project is base on two dataset Analysis, simply named Project 1 and 2.
+
+In Project 1, I analyzed the sales performance of a retail store. 
 I explored the sales data to uncover key insights such as top-selling products, regional 
 performance, and monthly sales trends. The goal is to produce an interactive Power BI 
 dashboard that highlights these findings
 
-### Procedure:
+In Project 2, customer data subscription service was analyzed to identify 
+segments and trends. This was aimed at understanding customer behavior, track subscription types, 
+and identify key trends in cancellations and renewals. The final deliverable is a Power BI 
+dashboard that presents my analysis.
+
+### PROJECT 1 Procedure:
 
 ### 1. Using Excel:
    
@@ -283,6 +289,79 @@ viii. Identify products with no sales in the last quarter
           FROM SalesData
            WHERE OrderDate >=
             DATEADD (QUARTER, -1, GETDATE()))```
+
+
+### PROJECT 2 Procedure:
+
+### 1. Using Excel:
+
+i. Analyze customer data using pivot tables to find subscription patterns.
+
+REGION BY ACTIVE SUBSCRIPTION  	
+Region	Sum of Active Subscription
+East	 18,750 
+North	 7,500 
+South	 7,500 
+West	 7,500 
+Grand Total	 41,250
+
+![image](https://github.com/user-attachments/assets/6a9431d2-c970-49a9-a352-b06982ae7539)
+
+![image](https://github.com/user-attachments/assets/472d31a4-13b6-40dd-9515-49315836e0d8)
+
+
+Here the EAST REGION has the higest number of ACTIVE Subscribers signaling high retention rate and Customers satisfaction.
+
+While the remaining three Regions has the same number of active Subscribers but very far below the Eastern Region, quality and cost of the product should be looked into.
+
+REGION BY CHURN SUBSCRIPTION/ATTRITION 	
+Region	Sum of Churn /attrition
+East	0
+North	 11,250 
+South	 11,250 
+West	 11,250 
+Grand Total	 33,750
+
+![image](https://github.com/user-attachments/assets/37645238-6fd1-4f60-bf93-1d16e7655fbe)
+
+![image](https://github.com/user-attachments/assets/feab134c-113f-4c1c-a4b9-19bc5c62dcad)
+
+
+Here, East Region has zero attrition, which means they have high retention rate, which signals high customers satisfaction.
+
+With other 3 remaining regions having same number of attrition signaling that customers satisfaction should be enhanced and product quality and affordability should be looked into.
+
+CUSTOMER BY SUBSCRIPTION DURATION	
+Customer Name	Sum of SubscriptionDuration in Days
+Alex	 1,368,750 
+Anna	 1,368,750 
+Chris	 1,368,750 
+Dan	 1,372,500 
+Ella	 1,368,750 
+Eva	 1,368,750 
+Grace	 1,372,500 
+James	 1,368,750 
+Jane	 1,368,750 
+John	 1,368,750 
+Liam	 1,368,750 
+Maria	 1,368,750 
+Mike	 1,368,750 
+Nina	 1,372,500 
+Paul	 1,372,500 
+Rob	 1,372,500 
+Sara	 1,368,750 
+Sophia	 1,372,500 
+Tom	 1,368,750 
+Zoe	 1,372,500 
+Grand Total	 27,401,250
+
+![image](https://github.com/user-attachments/assets/b94cefe0-eb72-49a7-8098-677ebf32db30)
+
+
+
+o Calculate the average subscription duration and identify the most popular 
+subscription types.
+o Create any other interesting reports.
 
 
 
