@@ -359,6 +359,9 @@ Grand Total	 27,401,250
 
 
 
+
+
+
 o Calculate the average subscription duration and identify the most popular 
 subscription types.
 o Create any other interesting reports.
