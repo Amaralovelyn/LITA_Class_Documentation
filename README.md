@@ -296,9 +296,7 @@ viii. Identify products with no sales in the last quarter
 ### 1. Using Excel:
 
 i. Analyze customer data using pivot tables to find subscription patterns.
-![CUSTOMERS SUB PIVOT TABLE](https://github.com/user-attachments/assets/419acdd9-2a48-412f-b32a-b398480146ec)
 
-![CUS SUB PIVOT TABLE 1](https://github.com/user-attachments/assets/32409d87-84a3-4887-9911-2fe1b36338c9)
 
 REGION BY ACTIVE SUBSCRIPTION  	
 Region	Sum of Active Subscription
