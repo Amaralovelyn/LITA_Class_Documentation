@@ -297,6 +297,12 @@ viii. Identify products with no sales in the last quarter
 
 i. Analyze customer data using pivot tables to find subscription patterns.
 
+![CUSTOMERS SUB PIVOT TABLE](https://github.com/user-attachments/assets/e564707f-8615-463f-a468-82e690541e40)
+
+![CUSTOMERS SUB PIVOT TABLE 1](https://github.com/user-attachments/assets/9bf54803-7258-490e-b4c1-ae16d9ed8143)
+
+
+
 REGION BY ACTIVE SUBSCRIPTION  	
 Region	Sum of Active Subscription
 East	 18,750 
@@ -371,9 +377,7 @@ Grand Total	           27,401,250
 
 ![CUSTOMER SUB REPORT 2](https://github.com/user-attachments/assets/9832fb94-3329-48cb-8bf8-fed13a3efd28)
 
-![CUSTOMERS SUB PIVOT TABLE](https://github.com/user-attachments/assets/4c75f02b-ad1c-4e26-9e3a-d9b5bc3e66c9)
 
-![CUSTOMERS SUB PIVOT TABLE 1](https://github.com/user-attachments/assets/af60cc7d-0fdc-4667-9ae9-adc6f6efb32f)
 
 
 
