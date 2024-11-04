@@ -341,11 +341,12 @@ PROCEDURES:
 
 i. Analyze customer data using pivot tables to find subscription patterns.
 
-![CUSTOMERS DATA PIVOT TABLE](https://github.com/user-attachments/assets/2c2e2b74-d6ad-453b-adfb-6d9df884f4dc)
+![CUSTOMERSDATAPIVOTTABLE](https://github.com/user-attachments/assets/c8493236-9174-4509-b6cc-e754639bcd5c)
 
-![CUSTOMERS DATA PIVOT TABLE 1](https://github.com/user-attachments/assets/eb15ac55-85c0-409b-91e5-b34a4e91c04f
+![CUSTOMERSDATAPIVOT ABLE1](https://github.com/user-attachments/assets/00935b81-c71b-40c1-a92c-70349f3d238d)
 
-![CUSTOMERS DATA REPORT](https://github.com/user-attachments/assets/032d0e23-dc23-4afc-b3ab-ff9052dd52d6)
+![CUSTOMERSDATAREPORT](https://github.com/user-attachments/assets/2f332694-8ea5-49b2-8293-e31c8e83595c)
+
 
 REGION BY ACTIVE SUBSCRIPTION
   	
