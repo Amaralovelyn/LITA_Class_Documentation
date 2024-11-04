@@ -297,85 +297,11 @@ viii. Identify products with no sales in the last quarter
 
 i. Analyze customer data using pivot tables to find subscription patterns.
 
-![CUSTOMERS SUB PIVOT TABLE](https://github.com/user-attachments/assets/7a5ff100-d626-437e-a2d4-1a38eb0f8742)
-
-![CUSTOMERS SUB PIVOT TABLE 1](https://github.com/user-attachments/assets/a0928569-ebc6-4277-a796-60e8017ea401)
 
 
 
 
-REGION BY ACTIVE SUBSCRIPTION  	
-Region	Sum of Active Subscription
-East	 18,750 
-North	 7,500 
-South	 7,500 
-West	 7,500 
-Grand Total	 41,250
 
-Here the EAST REGION has the higest number of ACTIVE Subscribers signaling high retention rate and Customers satisfaction.
-
-While the remaining three Regions has the same number of active Subscribers but very far below the Eastern Region, quality and cost of the product should be looked into.
-
-REGION BY CHURN SUBSCRIPTION/ATTRITION 	
-Region	Sum of Churn /attrition
-East	0
-North	 11,250 
-South	 11,250 
-West	 11,250 
-Grand Total	 33,750
-
-Here, East Region has zero attrition, which means they have high retention rate, which signals high customers satisfaction.
-
-With other 3 remaining regions having same number of attrition signaling that customers satisfaction should be enhanced and product quality and affordability should be looked into.
-
-
-
-
-CUSTOMER BY SUBSCRIPTION DURATION
-
-Customer Name	 Sum of SubscriptionDuration in Days
-
-Alex	                 1,368,750
- 
-Anna	                 1,368,750
-
-Chris	                 1,368,750
-
-Dan                    1,372,500
-
-Ella	                 1,368,750
-
-Eva	                   1,368,750
-
-Grace	                 1,372,500
-
-James	                 1,368,750
-
-Jane	                 1,368,750
-
-John	                 1,368,750
-
-Liam	                 1,368,750
-
-Maria	                 1,368,750
-
-Mike	                 1,368,750
-
-Nina	                 1,372,500
-
-Paul	                 1,372,500
-
-Rob	                   1,372,500
-
-Sara	                 1,368,750
-
-Sophia	               1,372,500
-
-Tom	                   1,368,750
-
-Zoe	                   1,372,500
-
-Grand Total	           27,401,250
 
  
 
