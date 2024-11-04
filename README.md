@@ -488,6 +488,7 @@ Grand Total	                  27,401,250
 ii. Calculate the average subscription duration and identify the most popular 
 subscription types
 
+
 REGION BY AVERAGE SUBSCRIPTION DURATION	Using Pivot Table:
 
 Region	       Average of SubscriptionDuration in Days
@@ -506,6 +507,38 @@ AVERAGE SUBSCRIPTION DURATION	Using Excel Calculation matrix:
 =AVERAGE(I2:I75001)
 ```
 giving 365
+
+
+- The most popular subscription types:
+
+        - Count of Basic Subscription Type
+  
+![image](https://github.com/user-attachments/assets/d12c01d9-06eb-42be-85cb-ca2ddba713f9)
+
+```excel
+=COUNTIFS(D2:D75001,D74982)
+```
+
+
+        - Count of Standard Subscription Type
+
+![image](https://github.com/user-attachments/assets/74a98dc3-5e3a-4609-8151-5008c36ce322)
+
+```excel
+=COUNTIFS(D2:D75001,D74981)
+```
+
+
+     - Count of Premium Subscription Type
+     
+![image](https://github.com/user-attachments/assets/18d947c6-6488-4d9d-911e-3786a8e037c3)
+
+```excel
+=COUNTIFS(D2:D75001,D74983)
+```
+
+Therefore the MOST POPULAR SUBSCRIPTION TYPE is BASIC
+
 
 
 iii. Create any other interesting reports
