@@ -167,10 +167,16 @@ September having the lowest sale should be as a result of school Resumption wher
 
 ![image](https://github.com/user-attachments/assets/538ff9ab-7424-4913-b1e0-91285932204a)
 
+```EXCEL
+=AVERAGEIF(C2:C50001,C2,H2:H50001)
+```
+Shirt	      326.6666667 = 327
 
-```=AVERAGEIF(C2:C50001,C2,H2:H50001)```       Shirt	      326.6666667 = 327
 
-```=AVERAGEIF(C2:C50001,C49983,H2:H50001)```   Shoes	      308.75 = 309
+```EXCEL
+=AVERAGEIF(C2:C50001,C49983,H2:H50001)
+```
+Shoes	      308.75 = 309
 
 ```=AVERAGEIF(C2:C50001,C49984,H2:H50001)```   Hat	        158.75 = 159
 
