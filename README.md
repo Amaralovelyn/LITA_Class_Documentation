@@ -297,9 +297,7 @@ viii. Identify products with no sales in the last quarter
 
 i. Analyze customer data using pivot tables to find subscription patterns.
 
-![CUSTOMERS SUB PIVOT TABLE](https://github.com/user-attachments/assets/a96e7f7e-9150-4f8f-bf7a-06580db06440)
 
-![CUS SUB PIVOT TABLE 1](https://github.com/user-attachments/assets/616925d0-77bc-4aeb-afab-df55647f32e9)
 
 
 
@@ -327,9 +325,8 @@ Here, East Region has zero attrition, which means they have high retention rate,
 
 With other 3 remaining regions having same number of attrition signaling that customers satisfaction should be enhanced and product quality and affordability should be looked into.
 
-![CUS SUB REPORT 1](https://github.com/user-attachments/assets/c401a79a-0e7f-4b99-b0e6-57e90576a6f9)
 
-![CUS  SUB REPORT 2](https://github.com/user-attachments/assets/b065f8fd-efa0-4192-9a35-a72102691523)
+
 
 CUSTOMER BY SUBSCRIPTION DURATION
 
