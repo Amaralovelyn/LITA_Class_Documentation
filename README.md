@@ -312,7 +312,6 @@ PROCEDURES:
 
 
 
-
 ### PROJECT 2 Procedure:
 
 ### 1. Using Excel:
