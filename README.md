@@ -100,6 +100,7 @@ TEXT - CLEANING 4. Here, after generating my Data and taking it for transformati
 
 ### Project Overview/Summary: This Project is base on two dataset Analysis, simply named Project 1 and 2.
 
+
 In Project 1, I analyzed the sales performance of a retail store. 
 I explored the sales data to uncover key insights such as top-selling products, regional 
 performance, and monthly sales trends. The goal is to produce an interactive Power BI 
@@ -110,27 +111,30 @@ segments and trends. This was aimed at understanding customer behavior, track su
 and identify key trends in cancellations and renewals. The final deliverable is a Power BI 
 dashboard that presents my analysis.
 
-### PROJECT 1 Procedure:
 
-### 1. Using Excel:
+## PROJECT 1 Procedure:
+
+## 1. Using Excel:
    
-i. I Performed an initial exploration of the sales data. Use pivot tables to summarize 
+### i. I Performed an initial exploration of the sales data. Use pivot tables to summarize 
 total sales by product, region, and month and the results are as shown below:
 
 ![Total sales by product, region, and month](https://github.com/user-attachments/assets/e9da38aa-538a-43b9-8e9b-eda30f5905c4)
 
-#### From the Total Sales by Product Pivot Table:
-- Shoes made the highest sale of  3,087,500
-- Followed by shirt at 2,450,000
-- Socks made the leastt sales of 912,500
+- From the Total Sales by Product Pivot Table:
+       - Shoes made the highest sale of  3,087,500
+       - Followed by shirt at 2,450,000
+       - Socks made the leastt sales of 912,500
 
-#### From the Total Sales by Region Pivot Table:
 
-- South made the highest sales of  4,675,000
-- Followed by East at 2,450,000
-- while the lowest sale came from West at 1,512,500
+- From the Total Sales by Region Pivot Table:
 
-#### From the Total Sales by Month Pivot Table:
+      - South made the highest sales of  4,675,000
+      - Followed by East at 2,450,000
+      - while the lowest sale came from West at 1,512,500
+
+
+- From the Total Sales by Month Pivot Table:
 
 The sales are as shown below in Descending order
 Feb	 2,750,000 
@@ -159,9 +163,10 @@ Sep	 175,000
 
 September having the lowest sale should be as a result of school Resumption where parents and Guardian has to pay more attention to paying of school fees, and other school things.
 
-#### From the Pivot Tables above the Grand Total is 10,587,500 
+ - From the Pivot Tables above the Grand Total is 10,587,500 
 
- ii. I Used Excel formulas to calculate metrics such as:
+ 
+ ### ii. I Used Excel formulas to calculate metrics such as:
  
  - AVERAGE SALE PER PRODUCT
 
@@ -178,29 +183,65 @@ Shirt	      326.6666667 = 327
 ```
 Shoes	      308.75 = 309
 
-```=AVERAGEIF(C2:C50001,C49984,H2:H50001)```   Hat	        158.75 = 159
 
-```=AVERAGEIF(C2:C50001,C49985,H2:H50001)```   Socks	      121.6666667 = 122
+```EXCEL
+=AVERAGEIF(C2:C50001,C49984,H2:H50001)
+```
+Hat	        158.75 = 159
 
-```=AVERAGEIF(C2:C50001,C49986,H2:H50001)```   Jacket	    140
 
-```=AVERAGEIF(C2:C50001,C49987,H2:H50001)```   Gloves	    200
+```EXCEL
+=AVERAGEIF(C2:C50001,C49985,H2:H50001)
+```
+Socks	      121.6666667 = 122
+
+
+```EXCEL
+=AVERAGEIF(C2:C50001,C49986,H2:H50001)
+```
+Jacket	    140
+
+
+```EXCEL
+=AVERAGEIF(C2:C50001,C49987,H2:H50001)
+```
+Gloves	    200
+
 
 - TOTAL REVENUE BY REGION
  
 ![image](https://github.com/user-attachments/assets/7cd76cbe-5dae-437f-a52a-21b1b9d885c8)
 
-South	4,675,000   ```=SUMIF(D2:D50001,D49983,H2:H50001)```
+South	4,675,000   
+```EXCEL
+=SUMIF(D2:D50001,D49983,H2:H50001)
+```
 
-East	2,450,000   ```=SUMIF(D2:D50001,D49984,H2:H50001)```
 
-West	1,512,500   ```=SUMIF(D2:D50001,D49989,H2:H50001)```
+East	2,450,000   
+```EXCEL
+=SUMIF(D2:D50001,D49984,H2:H50001)
+```
 
-North	1,950,000   ```=SUMIF(D2:D50001,D49982,H2:H50001)```
+West	1,512,500   
+```EXCEL
+=SUMIF(D2:D50001,D49989,H2:H50001)
+```
 
-TOTAL 10,587,500  ```=SUM(M12:M15)```
+
+North	1,950,000   
+```EXCEL
+=SUMIF(D2:D50001,D49982,H2:H50001)
+```
+
+
+TOTAL REGION 10,587,500  
+```EXCEL
+=SUM(M12:M15)
+```
  
-iii. Creating other interesting report:
+
+### iii. Creating other interesting report:
 
 The charts below summarizes the Sales Report at a glance
 
@@ -209,18 +250,18 @@ The charts below summarizes the Sales Report at a glance
 ![SALES REPORT 1](https://github.com/user-attachments/assets/0b882ab7-0ff7-4a36-bf97-aa87f791bfa1)
 
 
-### 2. Using SQL:
+## 2. Using SQL:
 
-#### I loaded the Salesdataset into my SQL Server environment so I can write and 
+Firstly, I loaded the Salesdataset into my SQL Server environment so I can write and 
 validate my queries. The following queries were done:
 
-- To see my SalesData Table, I wrote the query below:
+### To see my SalesData Table, I wrote the query below:
 
       ```SQL
   select*from salesdata
   ``` 
 
-- Then I alter the SalesData Table to create additional column called TotalSales by writing the query below:
+### Then, I alter the SalesData Table to create additional column called TotalSales by writing the query below:
 
    ```SQL
    ALTER TABLE salesdata
@@ -228,18 +269,18 @@ validate my queries. The following queries were done:
     ADD TotalSales int
    ```
 
-- Then UPDATE the SalesData Table with the query below:
+### Then UPDATE the SalesData Table with the query below:
 
    ```SQL
   UPDATE SalesData SET TotalSales = Quantity*UnitPrice
    ```
 
-The Image below are the SQL Queries as entered in SQL Server
+### The Image below are the SQL Queries as entered in SQL Server
 
 ![SQL QUERIES](https://github.com/user-attachments/assets/a2991865-41c9-4689-9dd8-bf75c2ceb04f)
 
 
-- Then, I was able to Write queries to extract key insights based on the following questions: 
+### Then, I was able to Write queries to extract key insights based on the following questions: 
 
 i. Retrieve the total sales for each product category
 
@@ -249,6 +290,7 @@ SELECT Product, SUM(TotalSales) AS TOTAL_SALES
            GROUP BY Product
 ```
 
+
 ii. Find the number of sales transactions in each region
 
 ```SQL
@@ -256,6 +298,7 @@ ii. Find the number of sales transactions in each region
          FROM SalesData
            GROUP BY Region
            ```
+
 
 iii. Find the highest-selling product by total sales value
 
@@ -266,6 +309,7 @@ iii. Find the highest-selling product by total sales value
               ORDER BY Highest_sale_value desc
               ```
 
+
 iv. Calculate total revenue per product
 
 ```SQL
@@ -274,6 +318,7 @@ SELECT Product, SUM(TotalSales) AS Total_revenue
           GROUP BY Product
             ORDER BY Total_revenue DESC
 ```
+
 
 v. Calculate monthly sales totals for the current year
 
@@ -286,6 +331,7 @@ SELECT MONTH(orderdate) AS Sales_month,
              ORDER BY Sales_month
 ```
 
+
 vi. Find the top 5 customers by total purchase amount
 
 ```SQL
@@ -294,6 +340,7 @@ SELECT TOP 5 Customer_Id, SUM(TotalSales) AS TOTAL_SALES
         GROUP BY Customer_Id
          ORDER BY TOTAL_SALES
 ```
+
 
 vii. Calculate the percentage of total sales contributed by each region.
 
@@ -305,6 +352,7 @@ SELECT REGION, SUM(TotalSales) AS TOTAL_SALES,
           GROUP BY REGION
            ORDER BY TOTAL_SALES
 ```
+
 
 viii. Identify products with no sales in the last quarter
 
@@ -319,11 +367,11 @@ SELECT Product, Region
 ```
 
 
-### 3. Using Power BI:
+## 3. Using Power BI:
 i. Create a dashboard that visualizes the insights found in Excel and SQL. The 
 dashboard should include a sales overview, top-performing products, and regional breakdowns.
 
-PROCEDURES:
+### PROCEDURES:
 
 - Firstly I loaded the Dataset (SALEDATA) to Power BI
 
@@ -339,13 +387,11 @@ PROCEDURES:
 
 
 
+## PROJECT 2 Procedure:
 
+## 1. Using Excel:
 
-### PROJECT 2 Procedure:
-
-### 1. Using Excel:
-
-i. Analyze customer data using pivot tables to find subscription patterns.
+i. I analyzed customer data using pivot tables to find subscription patterns and the results are as shown below:
 
 ![CUSTOMERSDATAPIVOTTABLE](https://github.com/user-attachments/assets/c8493236-9174-4509-b6cc-e754639bcd5c)
 
@@ -354,7 +400,7 @@ i. Analyze customer data using pivot tables to find subscription patterns.
 ![CUSTOMERSDATAREPORT](https://github.com/user-attachments/assets/2f332694-8ea5-49b2-8293-e31c8e83595c)
 
 
-REGION BY ACTIVE SUBSCRIPTION
+- REGION BY ACTIVE SUBSCRIPTION
   	
 Region	Sum of Active Subscription
 
@@ -372,100 +418,118 @@ Here the EAST REGION has the higest number of ACTIVE Subscribers signaling high 
 
 While the remaining three Regions has the same number of active Subscribers but very far below the Eastern Region, quality and cost of the product should be looked into.
 
-REGION BY CHURN SUBSCRIPTION/ATTRITION
 
-Region	Sum of Churn /attrition
+- REGION BY CHURN SUBSCRIPTION/ATTRITION
 
-East	0
+Region	          Sum of Churn /attrition
 
-North	 11,250
+East	                0
 
-South	 11,250
+North	                11,250
 
-West	 11,250
+South	                11,250
 
-Grand Total	 33,750
+West	                11,250
+
+Grand Total	          33,750
 
 Here, East Region has zero attrition, which means they have high retention rate, which signals high customers satisfaction.
 
 With other 3 remaining regions having same number of attrition signaling that customers satisfaction should be enhanced and product quality and affordability should be looked into.
 
-CUSTOMER BY SUBSCRIPTION DURATION
 
-Customer Name	 Sum of SubscriptionDuration in Days
+- CUSTOMER BY SUBSCRIPTION DURATION
 
-Alex	                 1,368,750
+Customer Name	              Sum of SubscriptionDuration in Days
+
+Alex	                        1,368,750
  
-Anna	                 1,368,750
+Anna	                        1,368,750
 
-Chris	                 1,368,750
+Chris	                        1,368,750
 
-Dan                    1,372,500
+Dan                           1,372,500
 
-Ella	                 1,368,750
+Ella	                        1,368,750
 
-Eva	                   1,368,750
+Eva	                          1,368,750
 
-Grace	                 1,372,500
+Grace	                        1,372,500
 
-James	                 1,368,750
+James	                        1,368,750
 
-Jane	                 1,368,750
+Jane	                        1,368,750
 
-John	                 1,368,750
+John	                        1,368,750
 
-Liam	                 1,368,750
+Liam	                        1,368,750
 
-Maria	                 1,368,750
+Maria	                        1,368,750
 
-Mike	                 1,368,750
+Mike	                        1,368,750
 
-Nina	                 1,372,500
+Nina	                        1,372,500
 
-Paul	                 1,372,500
+Paul	                        1,372,500
 
-Rob	                   1,372,500
+Rob	                          1,372,500
 
-Sara	                 1,368,750
+Sara	                        1,368,750
 
-Sophia	               1,372,500
+Sophia	                      1,372,500
 
-Tom	                   1,368,750
+Tom	                          1,368,750
 
-Zoe	                   1,372,500
+Zoe	                          1,372,500
 
-Grand Total	           27,401,250
+Grand Total	                  27,401,250
+
 
 ii. Calculate the average subscription duration and identify the most popular 
 subscription types
 
 REGION BY AVERAGE SUBSCRIPTION DURATION	Using Pivot Table:
-Region	Average of SubscriptionDuration in Days
-East	 365 
-North	 365 
-South	 365 
-West	 365 
-Grand Total	 365
+
+Region	       Average of SubscriptionDuration in Days
+East	                365 
+North	                365 
+South	                365 
+West	                365 
+Grand Total	          365
 
 ![image](https://github.com/user-attachments/assets/51bc25c7-327a-4ad4-9997-6287994d1935)
 
+
 AVERAGE SUBSCRIPTION DURATION	Using Excel Calculation matrix:
 
-```=AVERAGE(I2:I75001)``` giving 365
+```excel
+=AVERAGE(I2:I75001)
+```
+giving 365
+
 
 iii. Create any other interesting reports
 
 - Total number of Customers is 75,000
 
-```=COUNTA(B2:B75001)```
+```excel
+=COUNTA(B2:B75001)
+```
+
 
 - Total number of Active Subscribers is 41,250
 
-```=SUM(J2:J75001)```
+```excel
+=SUM(J2:J75001)
+```
+
 
 - Total number of churn Subscribers is 33,750
 
-```=SUM(K2:K75001)```
+```
+excel
+=SUM(K2:K75001)
+```
 
 
 
