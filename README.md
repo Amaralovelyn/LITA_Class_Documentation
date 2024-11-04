@@ -295,6 +295,21 @@ viii. Identify products with no sales in the last quarter
 i. Create a dashboard that visualizes the insights found in Excel and SQL. The 
 dashboard should include a sales overview, top-performing products, and regional breakdowns.
 
+PROCEDURES:
+
+- Firstly I loaded the Dataset (SALEDATA) to Power BI
+
+- Then Transformed the Data, added a custom column called Sales and populating the column as shown below:
+
+= [Quantity]*[UnitPrice]
+
+- Then I created all the MEASURES needed and
+
+- Finally making the MEASURES part of my VISUALS. The Visuals are as shown below:
+
+
+
+
 
 
 
