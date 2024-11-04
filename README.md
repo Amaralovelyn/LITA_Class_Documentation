@@ -307,6 +307,7 @@ PROCEDURES:
 
 - Finally making the MEASURES part of my VISUALS. The Visuals are as shown below:
 
+![SALESDATAANALYSISBYVISUALIZATION](https://github.com/user-attachments/assets/fcbaa370-574f-4f3b-a8fc-f4cf83b02e2a)
 
 
 
