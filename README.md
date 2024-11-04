@@ -511,27 +511,21 @@ giving 365
 
 - The most popular subscription types:
 
-        - Count of Basic Subscription Type
-  
-![image](https://github.com/user-attachments/assets/d12c01d9-06eb-42be-85cb-ca2ddba713f9)
+![image](https://github.com/user-attachments/assets/d12c01d9-06eb-42be-85cb-ca2ddba713f9) is 37,500 as shown in the formula below
 
 ```excel
 =COUNTIFS(D2:D75001,D74982)
 ```
 
 
-        - Count of Standard Subscription Type
-
-![image](https://github.com/user-attachments/assets/74a98dc3-5e3a-4609-8151-5008c36ce322)
+![image](https://github.com/user-attachments/assets/74a98dc3-5e3a-4609-8151-5008c36ce322) is 18,750 as shown below:
 
 ```excel
 =COUNTIFS(D2:D75001,D74981)
 ```
 
-
-     - Count of Premium Subscription Type
      
-![image](https://github.com/user-attachments/assets/18d947c6-6488-4d9d-911e-3786a8e037c3)
+![image](https://github.com/user-attachments/assets/18d947c6-6488-4d9d-911e-3786a8e037c3) is 18,750 as shown below:
 
 ```excel
 =COUNTIFS(D2:D75001,D74983)
