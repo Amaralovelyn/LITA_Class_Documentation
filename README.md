@@ -297,6 +297,9 @@ viii. Identify products with no sales in the last quarter
 
 i. Analyze customer data using pivot tables to find subscription patterns.
 
+![CUSTOMERS SUB PIVOT TABLE](https://github.com/user-attachments/assets/7a5ff100-d626-437e-a2d4-1a38eb0f8742)
+
+![CUSTOMERS SUB PIVOT TABLE 1](https://github.com/user-attachments/assets/a0928569-ebc6-4277-a796-60e8017ea401)
 
 
 
