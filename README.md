@@ -299,16 +299,123 @@ i. Analyze customer data using pivot tables to find subscription patterns.
 
 ![CUSTOMERS DATA PIVOT TABLE](https://github.com/user-attachments/assets/2c2e2b74-d6ad-453b-adfb-6d9df884f4dc)
 
-![CUSTOMERS DATA PIVOT TABLE 1](https://github.com/user-attachments/assets/eb15ac55-85c0-409b-91e5-b34a4e91c04f)
+![CUSTOMERS DATA PIVOT TABLE 1](https://github.com/user-attachments/assets/eb15ac55-85c0-409b-91e5-b34a4e91c04f
 
 ![CUSTOMERS DATA REPORT](https://github.com/user-attachments/assets/032d0e23-dc23-4afc-b3ab-ff9052dd52d6)
 
+REGION BY ACTIVE SUBSCRIPTION
+  	
+Region	Sum of Active Subscription
+
+East	 18,750
+
+North	 7,500
+
+South	 7,500
+
+West	 7,500
+
+Grand Total	 41,250
+
+Here the EAST REGION has the higest number of ACTIVE Subscribers signaling high retention rate and Customers satisfaction.
+
+While the remaining three Regions has the same number of active Subscribers but very far below the Eastern Region, quality and cost of the product should be looked into.
+
+REGION BY CHURN SUBSCRIPTION/ATTRITION
+
+Region	Sum of Churn /attrition
+
+East	0
+
+North	 11,250
+
+South	 11,250
+
+West	 11,250
+
+Grand Total	 33,750
+
+Here, East Region has zero attrition, which means they have high retention rate, which signals high customers satisfaction.
+
+With other 3 remaining regions having same number of attrition signaling that customers satisfaction should be enhanced and product quality and affordability should be looked into.
+
+CUSTOMER BY SUBSCRIPTION DURATION
+
+Customer Name	 Sum of SubscriptionDuration in Days
+
+Alex	                 1,368,750
  
+Anna	                 1,368,750
 
+Chris	                 1,368,750
 
-o Calculate the average subscription duration and identify the most popular 
-subscription types.
-o Create any other interesting reports.
+Dan                    1,372,500
+
+Ella	                 1,368,750
+
+Eva	                   1,368,750
+
+Grace	                 1,372,500
+
+James	                 1,368,750
+
+Jane	                 1,368,750
+
+John	                 1,368,750
+
+Liam	                 1,368,750
+
+Maria	                 1,368,750
+
+Mike	                 1,368,750
+
+Nina	                 1,372,500
+
+Paul	                 1,372,500
+
+Rob	                   1,372,500
+
+Sara	                 1,368,750
+
+Sophia	               1,372,500
+
+Tom	                   1,368,750
+
+Zoe	                   1,372,500
+
+Grand Total	           27,401,250
+
+ii. Calculate the average subscription duration and identify the most popular 
+subscription types
+
+REGION BY AVERAGE SUBSCRIPTION DURATION	Using Pivot Table:
+Region	Average of SubscriptionDuration in Days
+East	 365 
+North	 365 
+South	 365 
+West	 365 
+Grand Total	 365
+
+![image](https://github.com/user-attachments/assets/51bc25c7-327a-4ad4-9997-6287994d1935)
+
+AVERAGE SUBSCRIPTION DURATION	Using Excel Calculation matrix:
+
+```=AVERAGE(I2:I75001)``` giving 365
+
+iii. Create any other interesting reports
+
+- Total number of Customers is 75,000
+
+```=COUNTA(B2:B75001)```
+
+- Total number of Active Subscribers is 41,250
+
+```=SUM(J2:J75001)```
+
+- Total number of churn Subscribers is 33,750
+
+```=SUM(K2:K75001)```
+
 
 
 
