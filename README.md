@@ -291,6 +291,13 @@ viii. Identify products with no sales in the last quarter
             DATEADD (QUARTER, -1, GETDATE()))```
 
 
+### 3. Using Power BI:
+i. Create a dashboard that visualizes the insights found in Excel and SQL. The 
+dashboard should include a sales overview, top-performing products, and regional breakdowns.
+
+
+
+
 ### PROJECT 2 Procedure:
 
 ### 1. Using Excel:
