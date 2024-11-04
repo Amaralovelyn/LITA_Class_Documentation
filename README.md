@@ -243,7 +243,7 @@ ii. Find the number of sales transactions in each region
 
 iii. Find the highest-selling product by total sales value
 
-    ````SELECT Product, SUM(TotalSales) AS Highest_sale_value
+    ```SELECT Product, SUM(TotalSales) AS Highest_sale_value
           FROM SalesData
             GROUP BY Product
               ORDER BY Highest_sale_value desc```
@@ -297,11 +297,11 @@ viii. Identify products with no sales in the last quarter
 
 i. Analyze customer data using pivot tables to find subscription patterns.
 
+![CUSTOMERS DATA PIVOT TABLE](https://github.com/user-attachments/assets/2c2e2b74-d6ad-453b-adfb-6d9df884f4dc)
 
+![CUSTOMERS DATA PIVOT TABLE 1](https://github.com/user-attachments/assets/eb15ac55-85c0-409b-91e5-b34a4e91c04f)
 
-
-
-
+![CUSTOMERS DATA REPORT](https://github.com/user-attachments/assets/032d0e23-dc23-4afc-b3ab-ff9052dd52d6)
 
  
 
