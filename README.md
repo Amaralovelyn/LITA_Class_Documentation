@@ -653,7 +653,10 @@ o find the total number of active and canceled subscriptions.
 ## 3. Power BI:
 
 -  Build a Power BI dashboard that visualizes key customer segments, 
-cancellations, and subscription trends. Include slicers for interactive analysis
+cancellations, and subscription trends. Include slicers for interactive analysis:
+
+![CUSTOMER DATA ANALYSIS BY VISUALIZATION](https://github.com/user-attachments/assets/272110e3-ebff-4860-ad6f-6fb610f838b3)
+
 
 
 
