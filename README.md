@@ -558,6 +558,41 @@ excel
 =SUM(K2:K75001)
 ```
 
+## 2. SQL:
+
+I load the dataset into SQL Server environment to write 
+and validate my queries.
+
+Then Altered the Customer Data to add Subscription Duration Column by writing the query below:
+
+```sl
+ALTER TABLE CUSTOMERDATA
+ADD Subscriptionduration int
+```
+
+Then Populated the Column by
+
+The following queries were written to extract key insights based on the following questions:
+
+- Retrieve the total number of customers from each region.
+
+```SQL
+SELECT Region, COUNT(CustomerName) AS TotalCustomer
+FROM CUSTOMERDATA
+GROUP BY Region
+```
+
+- Find the most popular subscription type by the number of customers.
+
+- 
+o find customers who canceled their subscription within 6 months.
+o calculate the average subscription duration for all customers.
+o find customers with subscriptions longer than 12 months.
+o calculate total revenue by subscription type.
+o find the top 3 regions by subscription cancellations.
+o find the total number of active and canceled subscriptions.
+
+
 
 
 
