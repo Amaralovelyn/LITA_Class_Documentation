@@ -663,9 +663,4 @@ cancellations, and subscription trends. Include slicers for interactive analysis
 
 
 
-### Data Sources
-### Tools used
-### Data cleaning and Preparation
-### Exploratory Data Analysis
-### Data Analysis... codes used
 
