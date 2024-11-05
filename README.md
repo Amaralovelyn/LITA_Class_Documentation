@@ -488,7 +488,6 @@ Grand Total	                  27,401,250
 ii. Calculate the average subscription duration and identify the most popular 
 subscription types
 
-
 REGION BY AVERAGE SUBSCRIPTION DURATION	Using Pivot Table:
 
 Region	       Average of SubscriptionDuration in Days
@@ -558,6 +557,7 @@ excel
 =SUM(K2:K75001)
 ```
 
+
 ## 2. SQL:
 
 I migrated the dataset into SQL Server environment to write 
@@ -603,7 +603,7 @@ ORDER BY NUMBER_OF_CUSTOMER desc
 
 - Find customers who canceled their subscription within 6 months.
 
-  ```SQL
+```SQL
   SELECT CUSTOMERID, CUSTOMERNAME, SUBSCRIPTIONSTART, SUBSCRIPTIONEND,
 DATEDIFF(MONTH, SUBSCRIPTIONSTART, SUBSCRIPTIONEND) AS SUBSCRIPTION_DURATION
 FROM CUSTOMERS_TABLE
@@ -648,6 +648,12 @@ GROUP BY REGION
 ORDER BY NUMBER_SUBSCRIPTION_CANCELLATION DESC
 ```
 o find the total number of active and canceled subscriptions.
+
+
+## 3. Power BI:
+
+-  Build a Power BI dashboard that visualizes key customer segments, 
+cancellations, and subscription trends. Include slicers for interactive analysis
 
 
 
