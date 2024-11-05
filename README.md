@@ -252,7 +252,7 @@ The charts below summarizes the Sales Report at a glance
 
 ## 2. Using SQL:
 
-Firstly, I loaded the Salesdataset into my SQL Server environment so I can write and 
+Firstly, I migrated the Salesdataset into my SQL Server environment so I can write and 
 validate my queries. The following queries were done:
 
 ### To see my SalesData Table, I wrote the query below:
@@ -261,7 +261,7 @@ validate my queries. The following queries were done:
   select*from salesdata
   ``` 
 
-### Then, I alter the SalesData Table to create additional column called TotalSales by writing the query below:
+### Then, I altered the SalesData Table to create additional column called TotalSales by writing the query below:
 
    ```SQL
    ALTER TABLE salesdata
@@ -373,7 +373,7 @@ dashboard should include a sales overview, top-performing products, and regional
 
 ### PROCEDURES:
 
-- Firstly I loaded the Dataset (SALEDATA) to Power BI
+- Firstly I migrated the Dataset (SALEDATA) to Power BI
 
 - Then Transformed the Data, added a custom column called Sales and populating the column as shown below:
 
@@ -560,7 +560,7 @@ excel
 
 ## 2. SQL:
 
-I load the dataset into SQL Server environment to write 
+I migrated the dataset into SQL Server environment to write 
 and validate my queries.
 
 Then Altered the Customer Data to add Subscription Duration Column by writing the query below:
@@ -584,12 +584,69 @@ GROUP BY Region
 
 - Find the most popular subscription type by the number of customers.
 
-- 
-o find customers who canceled their subscription within 6 months.
-o calculate the average subscription duration for all customers.
+```sql
+select top 1 SubscriptionType, count(*)
+as numberofcustomers
+from customerdata
+group by subscriptiontype
+order by count(*) desc;
+```
+
+OR
+
+```SQL
+SELECT TOP 1 SUBSCRIPTIONTYPE, COUNT(CUSTOMERID) AS NUMBER_OF_CUSTOMER
+FROM CUSTOMERS_TABLE
+GROUP BY SUBSCRIPTIONTYPE
+ORDER BY NUMBER_OF_CUSTOMER desc
+```
+
+- Find customers who canceled their subscription within 6 months.
+
+  ```SQL
+  SELECT CUSTOMERID, CUSTOMERNAME, SUBSCRIPTIONSTART, SUBSCRIPTIONEND,
+DATEDIFF(MONTH, SUBSCRIPTIONSTART, SUBSCRIPTIONEND) AS SUBSCRIPTION_DURATION
+FROM CUSTOMERS_TABLE
+WHERE SUBSCRIPTIONEND IS NOT NULL
+AND DATEDIFF(MONTH, SUBSCRIPTIONSTART, SUBSCRIPTIONEND) <=6
+ORDER BY SUBSCRIPTION_DURATION
+```
+
+- Calculate the average subscription duration for all customers.
 o find customers with subscriptions longer than 12 months.
-o calculate total revenue by subscription type.
-o find the top 3 regions by subscription cancellations.
+
+- Calculate total revenue by subscription type.
+
+Total Revenue by Basic Subscription Type is 74,756,784
+
+```sql
+select sum(revenue) as TotalRevenue from CUSTOMERDATA
+where subscriptiontype = 'basic'
+```
+
+Total Revenue by Standard Subscription Type is 37,482,120
+
+```sql
+select sum(revenue) as TotalRevenue from CUSTOMERDATA
+where subscriptiontype = 'Standard'
+```
+
+Total Revenue by Premium Subscription Type is 37,580,782
+
+```sql
+select sum(revenue) as TotalRevenue from CUSTOMERDATA
+where subscriptiontype = 'Premium'
+```
+
+
+- Find the top 3 regions by subscription cancellations.
+
+```SQL
+SELECT TOP 3 REGION, COUNT(CANCELED) AS NUMBER_SUBSCRIPTION_CANCELLATION
+FROM CUSTOMERDATA
+GROUP BY REGION
+ORDER BY NUMBER_SUBSCRIPTION_CANCELLATION DESC
+```
 o find the total number of active and canceled subscriptions.
 
 
