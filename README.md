@@ -257,7 +257,7 @@ validate my queries. The following queries were done:
 
 ### To see my SalesData Table, I wrote the query below:
 
-      ```SQL
+    ```SQL
   select*from salesdata
   ``` 
 
