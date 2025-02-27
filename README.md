@@ -252,7 +252,7 @@ The charts below summarizes the Sales Report at a glance
 
 ## 2. Using SQL:
 
-Firstly, I migrated the Salesdataset into my SQL Server environment so I can write and 
+Firstly, I migrated the Salesdataset into SQL Server environment so I can write and 
 validate my queries. The following queries were done:
 
 ### To see my SalesData Table, I wrote the query below:
